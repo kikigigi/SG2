@@ -4,7 +4,6 @@ from flask import request
 import socket
 
 client = MongoClient('mongodb://db:27017')
-#client = MongoClient('mongodb://normaluser:normaluserpass@db:27017/')
 db = client.SG
 
 games = db['games']

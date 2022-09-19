@@ -10,7 +10,7 @@ services:
     depends_on:
       - db
 
-  db: #added
+  db:
     image: mongo #added
     container_name: "mongodb"
     restart: always

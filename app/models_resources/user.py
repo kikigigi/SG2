@@ -3,7 +3,6 @@ from flask_restful import Resource
 from flask import request
 import socket
 
-
 client = MongoClient('mongodb://db:27017')
 db = client.SG
 users = db['users']
