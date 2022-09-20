@@ -11,7 +11,7 @@ services:
       - db
 
   db:
-    image: mongo #added
+    image: mongo
     container_name: "mongodb"
     restart: always
     ports: # added
