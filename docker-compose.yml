@@ -16,8 +16,8 @@ services:
     restart: always
     ports: # added
       - "27017:27017" # added
-    volumes:
-      - /data/db:/data/db #added
+#    volumes:
+#      - /data/db:/data/db #added
 
   nginx:
     image: nginx:latest
