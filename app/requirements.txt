@@ -3,3 +3,4 @@ flask_restful
 gunicorn
 pymongo
 bcrypt
+flask-jwt-extended
